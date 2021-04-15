@@ -3,7 +3,7 @@
 import init from "./pkg/hello_world.js";
 
 const runWasm = async () => {
-  const rustWasm = await init("./pkg/hello-world.wasm");
+  const rustWasm = await init("./pkg/hello_world_bg.wasm");
 
   /**
    * Part one: Write in Wasm, Read in JS
