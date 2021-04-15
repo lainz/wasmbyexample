@@ -8,7 +8,7 @@ const runWasm = async () => {
   /**
    * Part one: Write in Wasm, Read in JS
    */
-  console.log("Write in JS, Read in Wasm, Index 0:");
+  console.log("Write in Wasm, Read in JS, Index 0:");
 
   // First, let's have wasm write to our buffer
   rustWasm.store_value_in_wasm_memory_buffer_index_zero(24);
